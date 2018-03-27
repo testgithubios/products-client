@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
   title = 'app';
+
+  search(searchValue){
+    alert('sss');
+    console.log('search '+searchValue);
+  }
 }

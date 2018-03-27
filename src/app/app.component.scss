@@ -1,0 +1,32 @@
+.index-page .page-header {
+    height: 30vh;
+}
+.group-search-header{
+    width: 60%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+}
+.search-header{
+    color: white;
+    font-size: 1.125rem;
+    line-height: 30px;
+}
+input.search-header::placeholder{
+    color: #fff;
+}
+.btn-search-header{
+    height: 34px;
+}
+.nav-scroll-height{
+    height: 60px;
+}
+@media (max-width: 991px){
+   
+    .search-header{
+        color: #3C4858;
+    }
+
+    .group-search-header{
+        width: 90%;
+    }
+}

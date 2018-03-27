@@ -336,11 +336,17 @@ materialKit = {
             if (materialKit.misc.transparent) {
                 materialKit.misc.transparent = false;
                 $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+                // Jin add 27/3/2018 - change bg color while scroll
+                $('.navbar-color-on-scroll').addClass('bg-primary');
+                $('.navbar-color-on-scroll').addClass('nav-scroll-height');
             }
         } else {
             if (!materialKit.misc.transparent) {
                 materialKit.misc.transparent = true;
                 $('.navbar-color-on-scroll').addClass('navbar-transparent');
+                // Jin add 27/3/2018 - change bg color while scroll 
+                $('.navbar-color-on-scroll').removeClass('bg-primary');
+                $('.navbar-color-on-scroll').removeClass('nav-scroll-height');
             }
         }
     }, 17)
