@@ -12,10 +12,58 @@
     height: 50px;
     margin-bottom: 0;
 }
+.nav-link {
+    padding: 0rem 1rem;
+}
 .navbar.navbar-transparent{
     position: inherit;
     padding: 0.625rem 0;
     background-color: #9548e2 !important;
+}
+.page-header.top{
+    height: 5vh !important;
+    background: #f1f1f1;
+}
+.top-page{
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+.top-page-title{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    color: black;
+}
+
+ul.menu-social {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ul.menu-social li {
+    float: left;
+    list-style: none;
+}
+.cart-header {
+    float: left;
+}
+.cart-header .dropdown #cardLink {
+    background: none;
+    border: none;
+    color: #9548e2;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cart-header .dropdown-menu {
+    border: none;
+    padding: 10px;
+    z-index: 99999;
+    margin-top: 0;
+    min-width: 170px;
 }
 
 @media (max-width: 991px)
