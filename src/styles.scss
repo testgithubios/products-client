@@ -1,0 +1,26 @@
+
+.index-page .page-header{
+    height: 12vh !important;
+    background-color: white;
+}
+.main-raised{
+    margin: 0px 0px 0px;
+    border-radius: 0;
+}
+.navbar{
+    background-color: #9548e2 !important;
+    height: 50px;
+    margin-bottom: 0;
+}
+.navbar.navbar-transparent{
+    position: inherit;
+    padding: 0.625rem 0;
+    background-color: #9548e2 !important;
+}
+
+@media (max-width: 991px)
+{
+    .nav-open .navbar-collapse {
+        border-left: 1px solid transparent;
+    }
+}
