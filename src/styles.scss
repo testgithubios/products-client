@@ -7,6 +7,9 @@
     margin: 0px 0px 0px;
     border-radius: 0;
 }
+.section {
+    padding: 35px 0 !important;
+}
 .navbar{
     background-color: #9548e2 !important;
     height: 50px;
@@ -14,6 +17,9 @@
 }
 .nav-link {
     padding: 0rem 1rem;
+}
+.group-search-header{
+    width: 75% !important;
 }
 .navbar.navbar-transparent{
     position: inherit;
