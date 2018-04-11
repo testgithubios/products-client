@@ -8,7 +8,7 @@
     border-radius: 0;
 }
 .section {
-    padding: 35px 0 !important;
+    padding: 5px 0 !important;
 }
 .navbar{
     background-color: #9548e2 !important;
@@ -19,7 +19,7 @@
     padding: 0rem 1rem;
 }
 .group-search-header{
-    width: 75% !important;
+    width: 70% !important;
 }
 .navbar.navbar-transparent{
     position: inherit;
@@ -70,6 +70,45 @@ ul.menu-social li {
     z-index: 99999;
     margin-top: 0;
     min-width: 170px;
+}
+
+.captain {
+    border-bottom: 1px solid #9548e2;
+}
+.captain {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    width: calc(100% - 43px);
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.captain span {
+    background: #9548e2;
+}
+.captain span {
+    border-top-right-radius: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    float: left;
+    height: 26px;
+    padding: 0px 10px 0px 10px;
+}
+.captain {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    width: calc(100% - 43px);
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.nopadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 @media (max-width: 991px)
